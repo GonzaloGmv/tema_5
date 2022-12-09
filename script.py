@@ -1,4 +1,7 @@
-import saludos
+from test.hola.saludos import *
+from test.adios.despedidas import *
 
-saludos.saludar()
+Saludo('Migui').saludar()
+Saludo('Miguelet').saludar()
+Despedida('Miguelet').despedir()
 
